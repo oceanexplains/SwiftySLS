@@ -14,6 +14,12 @@
 		F18B15F729F3488E0097C3C9 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B15F629F3488E0097C3C9 /* Resource.swift */; };
 		F18B15F929F3489C0097C3C9 /* ResourceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B15F829F3489C0097C3C9 /* ResourceStorage.swift */; };
 		F1B8B84329F348E900A40CD6 /* ResourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B84229F348E900A40CD6 /* ResourceType.swift */; };
+		F1B8B84529F349EB00A40CD6 /* ResourceAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B84429F349EB00A40CD6 /* ResourceAgent.swift */; };
+		F1B8B84729F34A6200A40CD6 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B84629F34A6200A40CD6 /* ProgressBarView.swift */; };
+		F1B8B84929F34AC300A40CD6 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B84829F34AC300A40CD6 /* Astronaut.swift */; };
+		F1B8B84B29F34ACD00A40CD6 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B84A29F34ACD00A40CD6 /* Plant.swift */; };
+		F1B8B84D29F34ADC00A40CD6 /* Metabolism.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B84C29F34ADC00A40CD6 /* Metabolism.swift */; };
+		F1B8B84F29F34AEC00A40CD6 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B84E29F34AEC00A40CD6 /* Module.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		F18B15F629F3488E0097C3C9 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		F18B15F829F3489C0097C3C9 /* ResourceStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceStorage.swift; sourceTree = "<group>"; };
 		F1B8B84229F348E900A40CD6 /* ResourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceType.swift; sourceTree = "<group>"; };
+		F1B8B84429F349EB00A40CD6 /* ResourceAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceAgent.swift; sourceTree = "<group>"; };
+		F1B8B84629F34A6200A40CD6 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		F1B8B84829F34AC300A40CD6 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		F1B8B84A29F34ACD00A40CD6 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		F1B8B84C29F34ADC00A40CD6 /* Metabolism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metabolism.swift; sourceTree = "<group>"; };
+		F1B8B84E29F34AEC00A40CD6 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 			children = (
 				F18B15E729F348120097C3C9 /* SwiftySLSApp.swift */,
 				F18B15F629F3488E0097C3C9 /* Resource.swift */,
+				F1B8B84429F349EB00A40CD6 /* ResourceAgent.swift */,
+				F1B8B84629F34A6200A40CD6 /* ProgressBarView.swift */,
+				F1B8B84829F34AC300A40CD6 /* Astronaut.swift */,
+				F1B8B84A29F34ACD00A40CD6 /* Plant.swift */,
+				F1B8B84C29F34ADC00A40CD6 /* Metabolism.swift */,
+				F1B8B84E29F34AEC00A40CD6 /* Module.swift */,
 				F1B8B84229F348E900A40CD6 /* ResourceType.swift */,
 				F18B15F829F3489C0097C3C9 /* ResourceStorage.swift */,
 				F18B15E929F348120097C3C9 /* ContentView.swift */,
@@ -149,10 +167,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1B8B84329F348E900A40CD6 /* ResourceType.swift in Sources */,
+				F1B8B84B29F34ACD00A40CD6 /* Plant.swift in Sources */,
 				F18B15F729F3488E0097C3C9 /* Resource.swift in Sources */,
 				F18B15F929F3489C0097C3C9 /* ResourceStorage.swift in Sources */,
+				F1B8B84929F34AC300A40CD6 /* Astronaut.swift in Sources */,
+				F1B8B84529F349EB00A40CD6 /* ResourceAgent.swift in Sources */,
 				F18B15EA29F348120097C3C9 /* ContentView.swift in Sources */,
 				F18B15E829F348120097C3C9 /* SwiftySLSApp.swift in Sources */,
+				F1B8B84D29F34ADC00A40CD6 /* Metabolism.swift in Sources */,
+				F1B8B84F29F34AEC00A40CD6 /* Module.swift in Sources */,
+				F1B8B84729F34A6200A40CD6 /* ProgressBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
