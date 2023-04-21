@@ -20,6 +20,9 @@
 		F1B8B84B29F34ACD00A40CD6 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B84A29F34ACD00A40CD6 /* Plant.swift */; };
 		F1B8B84D29F34ADC00A40CD6 /* Metabolism.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B84C29F34ADC00A40CD6 /* Metabolism.swift */; };
 		F1B8B84F29F34AEC00A40CD6 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B84E29F34AEC00A40CD6 /* Module.swift */; };
+		F1B8B85129F34B2A00A40CD6 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B85029F34B2A00A40CD6 /* Station.swift */; };
+		F1B8B85329F34B3D00A40CD6 /* Roster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B85229F34B3D00A40CD6 /* Roster.swift */; };
+		F1B8B85529F34B5100A40CD6 /* ModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B85429F34B5100A40CD6 /* ModuleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		F1B8B84A29F34ACD00A40CD6 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 		F1B8B84C29F34ADC00A40CD6 /* Metabolism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metabolism.swift; sourceTree = "<group>"; };
 		F1B8B84E29F34AEC00A40CD6 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		F1B8B85029F34B2A00A40CD6 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		F1B8B85229F34B3D00A40CD6 /* Roster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roster.swift; sourceTree = "<group>"; };
+		F1B8B85429F34B5100A40CD6 /* ModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,9 @@
 				F1B8B84A29F34ACD00A40CD6 /* Plant.swift */,
 				F1B8B84C29F34ADC00A40CD6 /* Metabolism.swift */,
 				F1B8B84E29F34AEC00A40CD6 /* Module.swift */,
+				F1B8B85029F34B2A00A40CD6 /* Station.swift */,
+				F1B8B85229F34B3D00A40CD6 /* Roster.swift */,
+				F1B8B85429F34B5100A40CD6 /* ModuleView.swift */,
 				F1B8B84229F348E900A40CD6 /* ResourceType.swift */,
 				F18B15F829F3489C0097C3C9 /* ResourceStorage.swift */,
 				F18B15E929F348120097C3C9 /* ContentView.swift */,
@@ -166,8 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B8B85529F34B5100A40CD6 /* ModuleView.swift in Sources */,
 				F1B8B84329F348E900A40CD6 /* ResourceType.swift in Sources */,
 				F1B8B84B29F34ACD00A40CD6 /* Plant.swift in Sources */,
+				F1B8B85329F34B3D00A40CD6 /* Roster.swift in Sources */,
 				F18B15F729F3488E0097C3C9 /* Resource.swift in Sources */,
 				F18B15F929F3489C0097C3C9 /* ResourceStorage.swift in Sources */,
 				F1B8B84929F34AC300A40CD6 /* Astronaut.swift in Sources */,
@@ -176,6 +187,7 @@
 				F18B15E829F348120097C3C9 /* SwiftySLSApp.swift in Sources */,
 				F1B8B84D29F34ADC00A40CD6 /* Metabolism.swift in Sources */,
 				F1B8B84F29F34AEC00A40CD6 /* Module.swift in Sources */,
+				F1B8B85129F34B2A00A40CD6 /* Station.swift in Sources */,
 				F1B8B84729F34A6200A40CD6 /* ProgressBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
