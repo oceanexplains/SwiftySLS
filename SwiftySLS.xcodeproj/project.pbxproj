@@ -23,6 +23,10 @@
 		F1B8B85129F34B2A00A40CD6 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B85029F34B2A00A40CD6 /* Station.swift */; };
 		F1B8B85329F34B3D00A40CD6 /* Roster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B85229F34B3D00A40CD6 /* Roster.swift */; };
 		F1B8B85529F34B5100A40CD6 /* ModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B85429F34B5100A40CD6 /* ModuleView.swift */; };
+		F1B8B85729F34B9800A40CD6 /* StationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B85629F34B9800A40CD6 /* StationView.swift */; };
+		F1B8B85929F34BC100A40CD6 /* ResourceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B85829F34BC100A40CD6 /* ResourceRow.swift */; };
+		F1B8B85B29F34BDB00A40CD6 /* ModuleResourceStoragesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B85A29F34BDB00A40CD6 /* ModuleResourceStoragesView.swift */; };
+		F1B8B85D29F34C2300A40CD6 /* Global Fxns.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B85C29F34C2300A40CD6 /* Global Fxns.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		F1B8B85029F34B2A00A40CD6 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 		F1B8B85229F34B3D00A40CD6 /* Roster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roster.swift; sourceTree = "<group>"; };
 		F1B8B85429F34B5100A40CD6 /* ModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleView.swift; sourceTree = "<group>"; };
+		F1B8B85629F34B9800A40CD6 /* StationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationView.swift; sourceTree = "<group>"; };
+		F1B8B85829F34BC100A40CD6 /* ResourceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceRow.swift; sourceTree = "<group>"; };
+		F1B8B85A29F34BDB00A40CD6 /* ModuleResourceStoragesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleResourceStoragesView.swift; sourceTree = "<group>"; };
+		F1B8B85C29F34C2300A40CD6 /* Global Fxns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global Fxns.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,20 +84,9 @@
 		F18B15E629F348120097C3C9 /* SwiftySLS */ = {
 			isa = PBXGroup;
 			children = (
+				F1B8B85F29F34C4A00A40CD6 /* Models */,
+				F1B8B85E29F34C3D00A40CD6 /* Views */,
 				F18B15E729F348120097C3C9 /* SwiftySLSApp.swift */,
-				F18B15F629F3488E0097C3C9 /* Resource.swift */,
-				F1B8B84429F349EB00A40CD6 /* ResourceAgent.swift */,
-				F1B8B84629F34A6200A40CD6 /* ProgressBarView.swift */,
-				F1B8B84829F34AC300A40CD6 /* Astronaut.swift */,
-				F1B8B84A29F34ACD00A40CD6 /* Plant.swift */,
-				F1B8B84C29F34ADC00A40CD6 /* Metabolism.swift */,
-				F1B8B84E29F34AEC00A40CD6 /* Module.swift */,
-				F1B8B85029F34B2A00A40CD6 /* Station.swift */,
-				F1B8B85229F34B3D00A40CD6 /* Roster.swift */,
-				F1B8B85429F34B5100A40CD6 /* ModuleView.swift */,
-				F1B8B84229F348E900A40CD6 /* ResourceType.swift */,
-				F18B15F829F3489C0097C3C9 /* ResourceStorage.swift */,
-				F18B15E929F348120097C3C9 /* ContentView.swift */,
 				F18B15EB29F348140097C3C9 /* Assets.xcassets */,
 				F18B15ED29F348140097C3C9 /* SwiftySLS.entitlements */,
 				F18B15EE29F348140097C3C9 /* Preview Content */,
@@ -103,6 +100,37 @@
 				F18B15EF29F348140097C3C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1B8B85E29F34C3D00A40CD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1B8B84629F34A6200A40CD6 /* ProgressBarView.swift */,
+				F1B8B85629F34B9800A40CD6 /* StationView.swift */,
+				F1B8B85829F34BC100A40CD6 /* ResourceRow.swift */,
+				F1B8B85A29F34BDB00A40CD6 /* ModuleResourceStoragesView.swift */,
+				F18B15E929F348120097C3C9 /* ContentView.swift */,
+				F1B8B85429F34B5100A40CD6 /* ModuleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1B8B85F29F34C4A00A40CD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F18B15F629F3488E0097C3C9 /* Resource.swift */,
+				F1B8B84429F349EB00A40CD6 /* ResourceAgent.swift */,
+				F1B8B84C29F34ADC00A40CD6 /* Metabolism.swift */,
+				F1B8B84829F34AC300A40CD6 /* Astronaut.swift */,
+				F1B8B85229F34B3D00A40CD6 /* Roster.swift */,
+				F1B8B84A29F34ACD00A40CD6 /* Plant.swift */,
+				F1B8B85029F34B2A00A40CD6 /* Station.swift */,
+				F1B8B84E29F34AEC00A40CD6 /* Module.swift */,
+				F1B8B84229F348E900A40CD6 /* ResourceType.swift */,
+				F18B15F829F3489C0097C3C9 /* ResourceStorage.swift */,
+				F1B8B85C29F34C2300A40CD6 /* Global Fxns.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,15 +207,19 @@
 				F1B8B84329F348E900A40CD6 /* ResourceType.swift in Sources */,
 				F1B8B84B29F34ACD00A40CD6 /* Plant.swift in Sources */,
 				F1B8B85329F34B3D00A40CD6 /* Roster.swift in Sources */,
+				F1B8B85729F34B9800A40CD6 /* StationView.swift in Sources */,
 				F18B15F729F3488E0097C3C9 /* Resource.swift in Sources */,
 				F18B15F929F3489C0097C3C9 /* ResourceStorage.swift in Sources */,
 				F1B8B84929F34AC300A40CD6 /* Astronaut.swift in Sources */,
+				F1B8B85D29F34C2300A40CD6 /* Global Fxns.swift in Sources */,
 				F1B8B84529F349EB00A40CD6 /* ResourceAgent.swift in Sources */,
 				F18B15EA29F348120097C3C9 /* ContentView.swift in Sources */,
 				F18B15E829F348120097C3C9 /* SwiftySLSApp.swift in Sources */,
 				F1B8B84D29F34ADC00A40CD6 /* Metabolism.swift in Sources */,
+				F1B8B85929F34BC100A40CD6 /* ResourceRow.swift in Sources */,
 				F1B8B84F29F34AEC00A40CD6 /* Module.swift in Sources */,
 				F1B8B85129F34B2A00A40CD6 /* Station.swift in Sources */,
+				F1B8B85B29F34BDB00A40CD6 /* ModuleResourceStoragesView.swift in Sources */,
 				F1B8B84729F34A6200A40CD6 /* ProgressBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

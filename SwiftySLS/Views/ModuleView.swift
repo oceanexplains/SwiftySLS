@@ -5,7 +5,7 @@
 //  Created by Tomer Zed on 4/21/23.
 //
 
-import Foundation
+import SwiftUI
 
 
 struct ModuleView: View {
